@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WoTProject1", "WoTProject1\WoTProject1.vcxproj", "{F5EFEB95-095D-4EB8-8C6E-AB27534B4F7F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletCollision", "..\..\Bullet Engine\bullet3-master\build3\vs2015\BulletCollision.vcxproj", "{B91153C5-259D-C089-2EAE-437E9AB81C8A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletDynamics", "..\..\Bullet Engine\bullet3-master\build3\vs2015\BulletDynamics.vcxproj", "{45122E0F-31E0-2115-1A74-923B06E1FD79}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinearMath", "..\..\Bullet Engine\bullet3-master\build3\vs2015\LinearMath.vcxproj", "{EAF25DFD-D6AA-9F4A-3FB2-78A62B893A3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		MinSizeRel|x64 = MinSizeRel|x64
+		MinSizeRel|x86 = MinSizeRel|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+		RelWithDebInfo|x86 = RelWithDebInfo|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5EFEB95-095D-4EB8-8C6E-AB27534B4F7F}.Debug|x64.ActiveCfg = Debug|x64
+		{F5EFEB95-095D-4EB8-8C6E-AB27534B4F7F}.Debug|x64.Build.0 = Debug|x64
+		{F5EFEB95-095D-4EB8-8C6E-AB27534B4F7F}.Debug|x86.ActiveCfg = Debug|Win32
+		{F5EFEB95-095D-4EB8-8C6E-AB27534B4F7F}.Debug|x86.Build.0 = Debug|Win32
+		{F5EFEB95-095D-4EB8-8C6E-AB27534B4F7F}.MinSizeRel|x64.ActiveCfg = Release|x64
+		{F5EFEB95-095D-4EB8-8C6E-AB27534B4F7F}.MinSizeRel|x64.Build.0 = Release|x64
+		{F5EFEB95-095D-4EB8-8C6E-AB27534B4F7F}.MinSizeRel|x86.ActiveCfg = Release|Win32
+		{F5EFEB95-095D-4EB8-8C6E-AB27534B4F7F}.MinSizeRel|x86.Build.0 = Release|Win32
+		{F5EFEB95-095D-4EB8-8C6E-AB27534B4F7F}.Release|x64.ActiveCfg = Release|x64
+		{F5EFEB95-095D-4EB8-8C6E-AB27534B4F7F}.Release|x64.Build.0 = Release|x64
+		{F5EFEB95-095D-4EB8-8C6E-AB27534B4F7F}.Release|x86.ActiveCfg = Release|Win32
+		{F5EFEB95-095D-4EB8-8C6E-AB27534B4F7F}.Release|x86.Build.0 = Release|Win32
+		{F5EFEB95-095D-4EB8-8C6E-AB27534B4F7F}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{F5EFEB95-095D-4EB8-8C6E-AB27534B4F7F}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{F5EFEB95-095D-4EB8-8C6E-AB27534B4F7F}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{F5EFEB95-095D-4EB8-8C6E-AB27534B4F7F}.RelWithDebInfo|x86.Build.0 = Release|Win32
+		{B91153C5-259D-C089-2EAE-437E9AB81C8A}.Debug|x64.ActiveCfg = Debug|Win32
+		{B91153C5-259D-C089-2EAE-437E9AB81C8A}.Debug|x86.ActiveCfg = Debug|Win32
+		{B91153C5-259D-C089-2EAE-437E9AB81C8A}.Debug|x86.Build.0 = Debug|Win32
+		{B91153C5-259D-C089-2EAE-437E9AB81C8A}.MinSizeRel|x64.ActiveCfg = Release|Win32
+		{B91153C5-259D-C089-2EAE-437E9AB81C8A}.MinSizeRel|x64.Build.0 = Release|Win32
+		{B91153C5-259D-C089-2EAE-437E9AB81C8A}.MinSizeRel|x86.ActiveCfg = Release|Win32
+		{B91153C5-259D-C089-2EAE-437E9AB81C8A}.MinSizeRel|x86.Build.0 = Release|Win32
+		{B91153C5-259D-C089-2EAE-437E9AB81C8A}.Release|x64.ActiveCfg = Release|Win32
+		{B91153C5-259D-C089-2EAE-437E9AB81C8A}.Release|x86.ActiveCfg = Release|Win32
+		{B91153C5-259D-C089-2EAE-437E9AB81C8A}.Release|x86.Build.0 = Release|Win32
+		{B91153C5-259D-C089-2EAE-437E9AB81C8A}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{B91153C5-259D-C089-2EAE-437E9AB81C8A}.RelWithDebInfo|x64.Build.0 = Release|Win32
+		{B91153C5-259D-C089-2EAE-437E9AB81C8A}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{B91153C5-259D-C089-2EAE-437E9AB81C8A}.RelWithDebInfo|x86.Build.0 = Release|Win32
+		{45122E0F-31E0-2115-1A74-923B06E1FD79}.Debug|x64.ActiveCfg = Debug|Win32
+		{45122E0F-31E0-2115-1A74-923B06E1FD79}.Debug|x86.ActiveCfg = Debug|Win32
+		{45122E0F-31E0-2115-1A74-923B06E1FD79}.Debug|x86.Build.0 = Debug|Win32
+		{45122E0F-31E0-2115-1A74-923B06E1FD79}.MinSizeRel|x64.ActiveCfg = Release|Win32
+		{45122E0F-31E0-2115-1A74-923B06E1FD79}.MinSizeRel|x64.Build.0 = Release|Win32
+		{45122E0F-31E0-2115-1A74-923B06E1FD79}.MinSizeRel|x86.ActiveCfg = Release|Win32
+		{45122E0F-31E0-2115-1A74-923B06E1FD79}.MinSizeRel|x86.Build.0 = Release|Win32
+		{45122E0F-31E0-2115-1A74-923B06E1FD79}.Release|x64.ActiveCfg = Release|Win32
+		{45122E0F-31E0-2115-1A74-923B06E1FD79}.Release|x86.ActiveCfg = Release|Win32
+		{45122E0F-31E0-2115-1A74-923B06E1FD79}.Release|x86.Build.0 = Release|Win32
+		{45122E0F-31E0-2115-1A74-923B06E1FD79}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{45122E0F-31E0-2115-1A74-923B06E1FD79}.RelWithDebInfo|x64.Build.0 = Release|Win32
+		{45122E0F-31E0-2115-1A74-923B06E1FD79}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{45122E0F-31E0-2115-1A74-923B06E1FD79}.RelWithDebInfo|x86.Build.0 = Release|Win32
+		{EAF25DFD-D6AA-9F4A-3FB2-78A62B893A3B}.Debug|x64.ActiveCfg = Debug|Win32
+		{EAF25DFD-D6AA-9F4A-3FB2-78A62B893A3B}.Debug|x86.ActiveCfg = Debug|Win32
+		{EAF25DFD-D6AA-9F4A-3FB2-78A62B893A3B}.Debug|x86.Build.0 = Debug|Win32
+		{EAF25DFD-D6AA-9F4A-3FB2-78A62B893A3B}.MinSizeRel|x64.ActiveCfg = Release|Win32
+		{EAF25DFD-D6AA-9F4A-3FB2-78A62B893A3B}.MinSizeRel|x64.Build.0 = Release|Win32
+		{EAF25DFD-D6AA-9F4A-3FB2-78A62B893A3B}.MinSizeRel|x86.ActiveCfg = Release|Win32
+		{EAF25DFD-D6AA-9F4A-3FB2-78A62B893A3B}.MinSizeRel|x86.Build.0 = Release|Win32
+		{EAF25DFD-D6AA-9F4A-3FB2-78A62B893A3B}.Release|x64.ActiveCfg = Release|Win32
+		{EAF25DFD-D6AA-9F4A-3FB2-78A62B893A3B}.Release|x86.ActiveCfg = Release|Win32
+		{EAF25DFD-D6AA-9F4A-3FB2-78A62B893A3B}.Release|x86.Build.0 = Release|Win32
+		{EAF25DFD-D6AA-9F4A-3FB2-78A62B893A3B}.RelWithDebInfo|x64.ActiveCfg = Release|Win32
+		{EAF25DFD-D6AA-9F4A-3FB2-78A62B893A3B}.RelWithDebInfo|x64.Build.0 = Release|Win32
+		{EAF25DFD-D6AA-9F4A-3FB2-78A62B893A3B}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{EAF25DFD-D6AA-9F4A-3FB2-78A62B893A3B}.RelWithDebInfo|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
